@@ -5,6 +5,7 @@ import App from './App';
 import {BrowserRouter} from 'react-router-dom';
 import {storeVal} from './redux/store'
 import registerServiceWorker from './registerServiceWorker';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 ReactDOM.render(
     <BrowserRouter>

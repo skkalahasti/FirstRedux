@@ -1,10 +1,12 @@
 import {combineReducers} from 'redux';
 import {routerReducer} from 'react-router-redux';
 import {INCREMENT, DECREMENT, SETVALUE} from "../actions/topic-action";
+import {todoList} from './TodoList';
 
 export default combineReducers({
     routing: routerReducer,
     counter: counter,
+    todoList: todoList,
     fake: () => []
 });
 
