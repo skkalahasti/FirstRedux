@@ -12,6 +12,7 @@ export class App extends Component {
             <div className="App">
                 <Header />
                 <TodoList/>
+                <TodoItem/>
             </div>
         );
     }
